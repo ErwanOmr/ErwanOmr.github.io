@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Omorodion;Erwan;;;
+FN:Erwan Omorodion
+ORG:Geneva Institute of Technology
+TITLE:Étudiant Bachelor IT — Infrastructure\, Réseau\, Virtualisation
+EMAIL;TYPE=INTERNET:erwan.omorodion@git.swiss
+URL:https://erwanomr.github.io/
+URL;TYPE=GitHub:https://github.com/ErwanOmr
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/erwan-omorodion
+NOTE:En recherche de stage en informatique (infrastructure\, réseau\, support) — région de Genève
+END:VCARD
