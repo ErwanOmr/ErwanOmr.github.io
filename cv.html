@@ -36,14 +36,21 @@ h1{font-size:24px;font-weight:800;margin-top:4px}
 .sheet img{display:block;width:100%;height:auto;background:#fff}
 footer{display:flex;justify-content:space-between;padding:12px 20px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11px;color:#7a6a70;background:#110c0e}
 footer a{color:inherit}
+.bar{justify-content:space-between;padding:0 0 0 10px;background:#1a1216;font-family:'Segoe UI',Inter,system-ui,sans-serif}
+.bar .tab{display:inline-flex;align-items:center;gap:8px;margin:7px 0 0;padding:8px 14px;background:var(--panel);border:1px solid var(--line);border-bottom:none;border-radius:8px 8px 0 0;color:var(--text);font-size:12px}
+.bar .tab b{display:grid;place-items:center;width:20px;height:15px;border-radius:3px;background:#012456;color:#fff;font-family:var(--mono);font-size:9px;font-weight:700}
+.bar .win{display:flex;align-self:stretch}
+.bar .win i{width:40px;min-height:36px;display:grid;place-items:center;border-radius:0;background:none!important;font-style:normal;color:var(--muted);font-size:13px}
+.bar .win i:last-child:hover{background:#c42b1c!important;color:#fff}
+.head .cmd .c{color:#f9f1a5}.head .cmd .a{color:#61d6d6}
 </style>
 </head>
 <body>
 <main class="wrap">
-  <div class="bar"><i></i><i></i><i></i><span>erwan@geneva:~/cv</span></div>
+  <div class="bar"><span class="tab"><b>&gt;_</b>Windows PowerShell</span><span class="win"><i>&#8211;</i><i>&#9633;</i><i>&#10005;</i></span></div>
   <section class="head">
     <div>
-      <div class="cmd"><em>$</em> cat cv.pdf</div>
+      <div class="cmd"><em>PS C:\Users\Erwan&gt;</em> <span class="c">Invoke-Item</span> <span class="a">.\cv.pdf</span></div>
       <h1>CV — Erwan Omorodion</h1>
     </div>
     <div class="actions">
