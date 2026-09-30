@@ -34,8 +34,8 @@ h1{font-size:23px;font-weight:800;letter-spacing:-.3px;line-height:1.15}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 14px 14px}
 .chip{font-size:11.5px;padding:3px 9px;border:1px solid rgba(239,68,68,.35);border-radius:6px;color:#fecaca;background:rgba(239,68,68,.07)}
 .cursor{display:inline-block;width:8px;height:15px;background:var(--red);vertical-align:-2px;animation:blink 1s steps(1) infinite}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 20px 20px}
-.btn{all:unset;box-sizing:border-box;cursor:pointer;position:relative;display:flex;flex-direction:column;gap:14px;padding:14px;border-radius:14px;background:var(--panel2);border:1px solid var(--line);transition:border-color .15s,transform .15s,background .15s}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:10px 20px 20px}
+.btn{all:unset;box-sizing:border-box;cursor:pointer;position:relative;min-width:0;display:flex;flex-direction:column;gap:14px;padding:14px;border-radius:14px;background:var(--panel2);border:1px solid var(--line);transition:border-color .15s,transform .15s,background .15s}
 .btn:hover{border-color:var(--red);transform:translateY(-2px);background:#221a1e}
 .btn .ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center}
 .btn .ic svg{width:20px;height:20px}
